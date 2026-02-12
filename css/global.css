@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --bg-color: #0F172A;
+  --stroke-color: #1E293B;
+  --brand-color-light: #60A5FA;
+  --brand-color-dark:#1D4ED8;
+  --text-color-primary:#F1F5F9;
+  --text-color-secondary: #CBD5E1;
+
+  --font-base: 'Archivo', sans-serif;
+
+  --font-size-heading1: 24px;
+  --font-size-heading2: 16px;
+  --font-size-heading3: 14px;
+  --font-size-span: 14px;
+  --font-size-paragraph: 14px;
+
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-extrabold: 800;
+
+  --line-height-heading1: 135%;
+  --line-height-heading2-3: 140%;
+  --line-height-span: 145%;
+  --line-height-paragraph: 160%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-base);
+  color: var(--text-color-secondary);
+  background-color: var(--bg-color);
+}
+
+h1 {
+  font-size: var(--font-size-heading1);
+  font-weight: var(--weight-extrabold);
+  line-height: var(--line-height-heading1);
+  color: var(--text-color-primary);
+}
+
+h2 {
+  font-size: var(--font-size-heading2);
+  font-weight: var(--weight-extrabold);
+  line-height: var(--line-height-heading2-3);
+  color: var(--text-color-primary);
+}
+
+h3 {
+  font-size: var(--font-size-heading3);
+  font-weight: var(--weight-extrabold);
+  line-height: var(--line-height-heading2-3);
+  color: var(--text-color-primary);
+}
+
+span {
+  font-size: var(--font-size-span);
+  font-weight: var(--weight-semibold);
+  line-height: var(--line-height-span);
+}
+
+p {
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--weight-regular);
+  line-height: var(--line-height-paragraph);
+}
