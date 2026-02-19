@@ -70,3 +70,11 @@ p {
   font-weight: var(--weight-regular);
   line-height: var(--line-height-paragraph);
 }
+
+.linha{
+  border: none;
+  height: 1px;
+  background-color: #4a4e73;
+  margin: 5px 0;
+  max-width: 100%;
+}
