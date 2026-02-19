@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 20px;
+    
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    color: #cbd5e1;
+}
+
+.navbar > h2{
+    color: #60a5fa;
+    margin-right: 400px;
+    margin-left: 400px;
+}
