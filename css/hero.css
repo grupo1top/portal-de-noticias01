@@ -134,7 +134,7 @@
   color: #CBD5E1;
 }
 
-.titulos-hero-2 h1:last-child{
+.titulos-hero-2 h1{
   cursor: pointer;
 }
 
@@ -188,3 +188,4 @@
 
   color: #F1F5F9;
 }
+
