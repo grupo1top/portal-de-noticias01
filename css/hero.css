@@ -296,7 +296,7 @@
 }
 
 .banner-lateral-destaques{
-  width: 100%;
+  max-width: 100%;
   border-radius: 4px;
   display: block;
   margin-bottom: 32px;
@@ -315,7 +315,7 @@
 
 .item-lateral-destaques img{
   width: 72px;
-  height: 72px;
+  height: 90px;
   border-radius: 4px;
   object-fit: cover;
   display: block;
