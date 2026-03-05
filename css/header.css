@@ -13,6 +13,13 @@
         display: none;
     }
     
+@media screen and (max-width: 625px){
+    .navbar{
+        padding: 10px;
+        font-size: small;
+    }
+}
+
 }
 .navbar {
     display: flex;

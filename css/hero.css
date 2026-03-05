@@ -343,3 +343,22 @@
   overflow: hidden;
 }
 
+
+@media screen and (max-width: 700px){
+  .hero {
+    grid-template-columns: none;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .hero > p > h2{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 700px){
+    .parte-destaques{
+      grid-template-columns: none;
+    }
+}
